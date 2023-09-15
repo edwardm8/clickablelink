@@ -1,24 +1,48 @@
 /* Body text */
 body {
+  font-family: "Lato",sans-serif;
+  font-size: 22px;
+  line-height: 1.5;
 
+  background-color:#fcb900;
 }
 
 /* Call-to-action container */
 .cta {
+  font-family: "Carter One",sans-serif;
 
+  background-color: #EAE151;
+
+  max-width: 30ch;
+  border-radius: 1rem;
+  margin: auto;
+  margin-top: 10ch;
+  text-align: center;
+  padding: 2rem;
 }
 
 /* Call to Action "button" */
 .cta a, .cta a:visited {
+  background-color: hsl(12,100%,50%);
+  color:white;
 
+  font-family: "Carter One",serif;
+  text-decoration: none;
+ 
+  margin: auto;
+  display: block;
+  width: fit-content;
+  padding: 0.5rem 1rem;
+  border-radius: 1rem;
 }
 
 /* Hover state */
 .cta a:hover {
-
+  color: hsl(12,100%,50%);
+  background-color:hsl(12,100%,20%);
 }
 
 /* Click state */
 .cta a:active {
-
+  background-color: #fcb900;
 }
